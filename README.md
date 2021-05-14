@@ -1,8 +1,8 @@
 # Checkers
 ## Table of contents
-* [ENG](# English version)
+* [ENG](#English version)
 
-* [PL](# Polska wersja)
+* [PL](#Polska wersja)
 
 
 
