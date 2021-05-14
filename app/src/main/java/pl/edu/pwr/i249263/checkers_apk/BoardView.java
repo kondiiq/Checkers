@@ -1,8 +1,18 @@
 package pl.edu.pwr.i249263.checkers_apk;
 
-public class BoardView
-{
+import android.content.Context;
+import android.view.View;
+
+public class BoardView extends View {
     BoardModel model;
-    BoardView()
-    {}
+
+    public BoardView(Context context) {
+        super(context);
+    }
+
+
+    public void drawBoard()
+    {
+
+    }
 }
