@@ -1,4 +1,8 @@
 package pl.edu.pwr.i249263.checkers_apk;
 
-public class BoardView {
+public class BoardView
+{
+    BoardModel model;
+    BoardView()
+    {}
 }
