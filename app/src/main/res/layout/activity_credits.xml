@@ -4,30 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
-    tools:context=".CreditsActivity">
+    android:background="@drawable/gradient_board"
+    tools:context=".OthersClass.Credits">
 
     <Button
-        android:id="@+id/returnBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="44dp"
-        android:text="Back"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
+        android:id="@+id/back2MenuCredits"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Created by kondiiq April-June 2021\n         https://github.com/kondiiq"
-        app:layout_constraintBottom_toTopOf="@+id/returnBtn"
+        android:text="Back to menu"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autoLink="web"
-        />
+        app:layout_constraintVertical_bias="0.944" />
 </androidx.constraintlayout.widget.ConstraintLayout>

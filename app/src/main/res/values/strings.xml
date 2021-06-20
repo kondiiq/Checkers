@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Checkers_apk</string>
+    <string name="app_name">FGame</string>
+    <string name="Start">Play!</string>
+    <string name="credits">Credits</string>
+    <string name="exit">Exit</string>
+    <string name="back2Menu">Back to menu</string>
+    <string name="play">Play!</string>
 </resources>
